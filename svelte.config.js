@@ -14,7 +14,8 @@ const config = {
 		adapter: adapter(),
 
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/sopatiss'
+			base: process.argv.includes('dev') ? '/sopatiss' : '/sopatiss',
+			relative: false
 		},
 
 
