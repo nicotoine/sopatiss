@@ -1,3 +1,7 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
 <section id="propos" class="about-section">
     <div class="container">
         <div class="text-content">
@@ -10,7 +14,7 @@
             </p>
         </div>
         <div class="image-container">
-            <img src="/soso.png" alt="[Image d'une pâtissière souriante décorant un gâteau]" class="about-image" >
+            <img src="{base}/soso.png" alt="[Image d'une pâtissière souriante décorant un gâteau]" class="about-image" >
         </div>
     </div>
 </section>

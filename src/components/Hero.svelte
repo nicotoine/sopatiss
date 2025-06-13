@@ -1,6 +1,10 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
 <section class="hero-section">
     <div class="container">
-        <img src="/sopatiss.jpg" alt="Logo So' Patiss, Ateliers et gourmandises" class="hero-logo">
+        <img src="{base}/sopatiss.jpg" alt="Logo So' Patiss, Ateliers et gourmandises" class="hero-logo">
         <h1 class="hero-title">So' Patiss : Ateliers & Gourmandises</h1>
         <p class="hero-subtitle">Votre artisane pâtissière à <span class="gradient-text">Fécamp</span> pour des ateliers créatifs et des gâteaux d'exception pour chaque événement.</p>
         <div class="button-group">

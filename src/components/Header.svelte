@@ -1,4 +1,5 @@
 <script>
+import { base } from '$app/paths';
   let mobileMenuOpen = false;
 
   function toggleMobileMenu() {
@@ -13,7 +14,7 @@
 <header class="header">
     <nav class="nav-container">
         <div class="logo-container">
-             <img src="/sopatiss.jpg" alt="Logo So' Patiss" class="logo-img">
+             <img src="{base}/sopatiss.jpg" alt="Logo So' Patiss" class="logo-img">
              <span class="logo-text">So' Patiss</span>
         </div>
         <div class="desktop-nav">

@@ -1,18 +1,21 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
 <section id="galerie" class="gallery-section">
     <div class="container">
         <h2 class="title">Nos Créations Gourmandes</h2>
         <div class="grid">
             <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?q=80&w=1887&auto=format&fit=crop" alt="[Image de macarons colorés]" class="gallery-image" >
+                <img src="{base}/patisserie/macarons.jpg" alt="[Image de macarons colorés]" class="gallery-image" >
             </div>
              <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1606890737304-57a16e5d4655?q=80&w=1887&auto=format&fit=crop" alt="[Image d'un gâteau d'anniversaire décoré]" class="gallery-image" >
+                <img src="{base}/patisserie/gateau1.jpg" alt="[Image d'un gâteau d'anniversaire décoré]" class="gallery-image" >
             </div>
              <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1587122569949-ae0e439e7a2b?q=80&w=1887&auto=format&fit=crop" alt="[Image d'une tarte aux fruits frais]" class="gallery-image" >
+                <img src="{base}/patisserie/gateau2.jpg" alt="[Image d'une tarte aux fruits frais]" class="gallery-image" >
             </div>
              <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1621939512532-6a87791d37c3?q=80&w=1887&auto=format&fit=crop" alt="[Image de verrines pour un service traiteur]" class="gallery-image" >
+                <img src="{base}/patisserie/gateau3.jpg" alt="[Image de verrines pour un service traiteur]" class="gallery-image" >
             </div>
         </div>
     </div>
@@ -37,7 +40,8 @@
     }
     .grid {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
         gap: 1rem;
     }
     .gallery-item {
