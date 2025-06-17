@@ -14,7 +14,7 @@
             </p>
         </div>
         <div class="image-container">
-            <img src="{base}/soso.png" alt="[Image d'une pâtissière souriante décorant un gâteau]" class="about-image" >
+            <img src="{base}/soso.png" alt="Pâtissière souriante décorant un gâteau" class="about-image" >
         </div>
     </div>
 </section>
