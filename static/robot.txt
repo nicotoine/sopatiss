@@ -1,0 +1,7 @@
+# Indique à tous les robots (user-agents) qu'ils peuvent explorer le site.
+User-agent: *
+Allow: /
+
+# Indique l'emplacement du sitemap pour aider les robots à découvrir toutes vos pages.
+# Assurez-vous que l'URL est l'URL complète de votre site de production.
+Sitemap: https://nicotoine.github.io/sopatiss/sitemap.xml

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset
+  xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+>
+  <!-- Pages statiques -->
+  
+  <url>
+    <loc>https://nicotoine.github.io/sopatiss/</loc>
+    <lastmod>2025-07-02T19:17:57.362Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nicotoine.github.io/sopatiss/articles</loc>
+    <lastmod>2025-07-02T19:17:57.362Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nicotoine.github.io/sopatiss/contact</loc>
+    <lastmod>2025-07-02T19:17:57.362Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nicotoine.github.io/sopatiss/contact/merci</loc>
+    <lastmod>2025-07-02T19:17:57.362Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Articles de blog -->
+  
+  <url>
+    <loc>https://nicotoine.github.io/sopatiss/articles/tarte-abricots-romarin</loc>
+    <lastmod>2025-07-01T22:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nicotoine.github.io/sopatiss/articles/idees-anniversaire-enfant</loc>
+    <lastmod>2025-06-14T22:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nicotoine.github.io/sopatiss/articles/bienfaits-atelier-patisserie</loc>
+    <lastmod>2025-05-27T22:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nicotoine.github.io/sopatiss/articles/choisir-gateau-evenement</loc>
+    <lastmod>2024-06-30T22:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nicotoine.github.io/sopatiss/articles/recette-macarons-inratable</loc>
+    <lastmod>2024-06-24T22:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
