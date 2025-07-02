@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+	import { lazy } from '../actions/lazy';
+	let rootMargin = '100px';
 </script>
 
 <section id="galerie" class="gallery-section">
@@ -7,25 +9,37 @@
 		<h2 class="title">Nos Créations Gourmandes</h2>
 		<div class="grid">
 			<div class="gallery-item">
-				<img src="{base}/patisserie/macarons.jpg" alt="Macarons colorés" class="gallery-image" />
+				<img
+					use:lazy={{ rootMargin }}
+					src=""
+					data-src="{base}/patisserie/macarons.jpg"
+					alt="Macarons colorés"
+					class="gallery-image"
+				/>
 			</div>
 			<div class="gallery-item">
 				<img
-					src="{base}/patisserie/gateau1.jpg"
+					use:lazy={{ rootMargin }}
+					src=""
+					data-src="{base}/patisserie/gateau1.jpg"
 					alt="Gâteau d'anniversaire décoré"
 					class="gallery-image"
 				/>
 			</div>
 			<div class="gallery-item">
 				<img
-					src="{base}/patisserie/gateau2.jpg"
+					use:lazy={{ rootMargin }}
+					src=""
+					data-src="{base}/patisserie/gateau2.jpg"
 					alt="Tarte aux fruits frais"
 					class="gallery-image"
 				/>
 			</div>
 			<div class="gallery-item">
 				<img
-					src="{base}/patisserie/gateau3.jpg"
+					use:lazy={{ rootMargin }}
+					src=""
+					data-src="{base}/patisserie/gateau3.jpg"
 					alt="Verrines pour un service traiteur"
 					class="gallery-image"
 				/>

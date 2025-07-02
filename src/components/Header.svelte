@@ -14,16 +14,46 @@
 
 <header class="header">
 	<nav class="nav-container">
-		<a href="/" class="logo-container">
+		<a
+			href="{base}/"
+			class="logo-container"
+			aria-label="Page d'accueil de So' Patiss"
+			title="Page d'accueil de So' Patiss"
+		>
 			<img src="{base}/sopatiss.jpg" alt="Logo So' Patiss" class="logo-img" />
 			<span class="logo-text">So' Patiss</span>
 		</a>
 		<div class="desktop-nav">
-            <a href="{base}/" class="nav-link">Accueil</a>
-            <a href="{base}/#propos" class="nav-link">À propos</a>
-            <a href="{base}/#services" class="nav-link">Nos Services</a>
-            <a href="{base}/articles" class="nav-link">Articles</a>
-            <a href="{base}/contact" class="nav-button">Contact & Commande</a>
+			<a
+				aria-label="Page d'accueil de So' Patiss"
+				title="Page d'accueil de So' Patiss"
+				href="{base}/"
+				class="nav-link">Accueil</a
+			>
+			<a
+				aria-label="Section à propos de So' Patiss"
+				title="Section à propos de So' Patiss"
+				href="{base}/#propos"
+				class="nav-link">À propos</a
+			>
+			<a
+				aria-label="Section nos services de So' Patiss"
+				title="Section nos services de So' Patiss"
+				href="{base}/#services"
+				class="nav-link">Nos Services</a
+			>
+			<a
+				aria-label="Page articles de So' Patiss"
+				title="Page articles de So' Patiss"
+				href="{base}/articles"
+				class="nav-link">Articles</a
+			>
+			<a
+				aria-label="Page contact et commande de So' Patiss"
+				title="Page contact et commande de So' Patiss"
+				href="{base}/contact"
+				class="nav-button">Contact & Commande</a
+			>
 		</div>
 		<div class="mobile-menu-button-container">
 			<button on:click={toggleMobileMenu} class="mobile-menu-button" aria-label="Afficher le menu">
@@ -46,11 +76,41 @@
 	</nav>
 	{#if mobileMenuOpen}
 		<div class="mobile-menu">
-            <a href="{base}/" on:click={closeMenu} class="mobile-nav-link">Accueil</a>
-            <a href="{base}/#propos" on:click={closeMenu} class="mobile-nav-link">À propos</a>
-            <a href="{base}/#services" on:click={closeMenu} class="mobile-nav-link">Nos Services</a>
-            <a href="{base}/articles" on:click={closeMenu} class="mobile-nav-link">Articles</a>
-            <a href="{base}/contact" on:click={closeMenu} class="mobile-nav-link">Contact & Commande</a>
+			<a
+				aria-label="Page d'accueil de So' Patiss"
+				title="Page d'accueil de So' Patiss"
+				href="{base}/"
+				on:click={closeMenu}
+				class="mobile-nav-link">Accueil</a
+			>
+			<a
+				aria-label="Section à propos de So' Patiss"
+				title="Section à propos de So' Patiss"
+				href="{base}/#propos"
+				on:click={closeMenu}
+				class="mobile-nav-link">À propos</a
+			>
+			<a
+				aria-label="Section nos services de So' Patiss"
+				title="Section nos services de So' Patiss"
+				href="{base}/#services"
+				on:click={closeMenu}
+				class="mobile-nav-link">Nos Services</a
+			>
+			<a
+				aria-label="Page articles de So' Patiss"
+				title="Page articles de So' Patiss"
+				href="{base}/articles"
+				on:click={closeMenu}
+				class="mobile-nav-link">Articles</a
+			>
+			<a
+				aria-label="Page contact et commande de So' Patiss"
+				title="Page contact et commande de So' Patiss"
+				href="{base}/contact"
+				on:click={closeMenu}
+				class="mobile-nav-link">Contact & Commande</a
+			>
 		</div>
 	{/if}
 </header>

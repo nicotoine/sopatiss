@@ -1,16 +1,13 @@
-
 <script>
-	import About from "../components/About.svelte";
-	import ArticlesCarousel from "../components/ArticlesCarousel.svelte";
-	import Contact from "../components/Contact.svelte";
-	import Gallery from "../components/Gallery.svelte";
-	import Hero from "../components/Hero.svelte";
-	import Services from "../components/Services.svelte";
+	import About from '../components/About.svelte';
+	import ArticlesCarousel from '../components/ArticlesCarousel.svelte';
+	import Contact from '../components/Contact.svelte';
+	import Gallery from '../components/Gallery.svelte';
+	import Hero from '../components/Hero.svelte';
+	import Services from '../components/Services.svelte';
 
-  export let data;
+	export let data;
 </script>
-
-
 
 <Hero />
 <About />

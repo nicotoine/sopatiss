@@ -1,20 +1,20 @@
 ---
-title: "La Recette Inratable des Macarons à la Framboise"
-date: "2024-07-01"
+title: 'La Recette Inratable des Macarons à la Framboise'
+date: '2024-07-01'
 description: "Apprenez pas à pas comment réaliser de parfaits macarons, dignes d'une grande pâtisserie. Une spécialité à maîtriser pour épater vos invités."
-coverImage: "https://images.unsplash.com/photo-1558326567-98ae2405596b?q=80&w=1964&auto=format&fit=crop"
+coverImage: 'https://images.unsplash.com/photo-1558326567-98ae2405596b?q=80&w=1964&auto=format&fit=crop'
 ---
 
 Les macarons peuvent sembler intimidants, mais avec les bonnes instructions et un peu de pratique, vous pouvez créer de magnifiques coques lisses et une collerette parfaite. Suivez ce guide pour une pâtisserie réussie !
 
 ## Ingrédients pour les coques
 
-* 150g de poudre d'amandes
-* 150g de sucre glace
-* 2x55g de blancs d'œufs (à température ambiante)
-* 150g de sucre en poudre
-* 38g d'eau
-* Colorant alimentaire rose (gel ou poudre)
+- 150g de poudre d'amandes
+- 150g de sucre glace
+- 2x55g de blancs d'œufs (à température ambiante)
+- 150g de sucre en poudre
+- 38g d'eau
+- Colorant alimentaire rose (gel ou poudre)
 
 ## Préparation
 

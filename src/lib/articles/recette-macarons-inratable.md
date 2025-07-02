@@ -1,8 +1,8 @@
 ---
-title: "Comment Choisir le Gâteau Parfait pour votre Événement ?"
-date: "2024-06-25"
-description: "Mariage, anniversaire, baptême... Découvrez nos conseils pour trouver le gâteau idéal pour votre événement à Fécamp et ses alentours."
-coverImage: "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=1950&auto=format&fit=crop"
+title: 'Comment Choisir le Gâteau Parfait pour votre Événement ?'
+date: '2024-06-25'
+description: 'Mariage, anniversaire, baptême... Découvrez nos conseils pour trouver le gâteau idéal pour votre événement à Fécamp et ses alentours.'
+coverImage: 'https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=1950&auto=format&fit=crop'
 ---
 
 Le **gâteau** est souvent la pièce maîtresse d'un **événement**. Il doit être aussi beau que bon. Voici quelques pistes pour vous aider à faire votre **commande** chez So' Patiss.

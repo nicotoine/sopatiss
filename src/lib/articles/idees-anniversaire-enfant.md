@@ -1,8 +1,8 @@
 ---
 title: "5 Idées Gourmandes pour un Anniversaire d'Enfant Réussi"
-date: "2025-06-15"
+date: '2025-06-15'
 description: "Organiser un anniversaire d'enfant est un événement ! Découvrez nos idées de gâteaux et gourmandises sur commande pour faire de cette journée un succès inoubliable."
-coverImage: "https://images.pexels.com/photos/17876349/pexels-photo-17876349/free-photo-of-dehors-mignon-parc-joie.jpeg"
+coverImage: 'https://images.pexels.com/photos/17876349/pexels-photo-17876349/free-photo-of-dehors-mignon-parc-joie.jpeg'
 ---
 
 L'**événement** le plus attendu de l'année pour un enfant est souvent son anniversaire. Le **gâteau** en est la star ! Chez So' Patiss, nous adorons créer des merveilles pour les plus jeunes. Voici quelques idées pour votre prochaine **commande**.
