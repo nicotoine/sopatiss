@@ -9,7 +9,7 @@
         <p class="hero-subtitle">Votre artisane pâtissière à <span class="gradient-text">Fécamp</span> pour des ateliers créatifs et des gâteaux d'exception pour chaque événement.</p>
         <div class="button-group">
             <a href="#services" class="button primary">Découvrir nos services</a>
-            <a href="#contact" class="button secondary">Passer une commande</a>
+            <a href="{base}/contact" class="button secondary">Passer une commande</a>
         </div>
     </div>
 </section>
