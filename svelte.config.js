@@ -20,7 +20,6 @@ const config = {
 		adapter: adapter(),
 
 		paths: {
-			base: '/',
 			relative: false
 		}
 	}
