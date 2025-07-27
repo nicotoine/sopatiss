@@ -49,6 +49,12 @@
 				class="nav-link">Articles</a
 			>
 			<a
+				aria-label="Page tarifs de So' Patiss"
+				title="Page tarifs de So' Patiss"
+				href="{base}/tarifs"
+				class="nav-link">Tarifs</a
+			>
+			<a
 				aria-label="Page contact et commande de So' Patiss"
 				title="Page contact et commande de So' Patiss"
 				href="{base}/contact"
@@ -109,7 +115,7 @@
 				title="Page traifs de So' Patiss"
 				href="{base}/tarifs"
 				on:click={closeMenu}
-				class="mobile-nav-link">Articles</a
+				class="mobile-nav-link">Tarifs</a
 			>
 			<a
 				aria-label="Page contact et commande de So' Patiss"
