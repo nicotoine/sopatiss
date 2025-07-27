@@ -4,15 +4,15 @@
 
 <section id="services" class="services-section">
 	<div class="container">
-		<h2 class="title">Nos Prestations</h2>
+		<h2 class="title">Je souhaite partager ma passion avec vous de deux manières</h2>
 		<div class="grid">
 			<div class="card">
 				<h3 class="card-title">Ateliers de Pâtisserie</h3>
 				<p class="card-text">
-					Envie de mettre la main à la pâte ? Participez à un <strong>atelier de pâtisserie</strong>
-					convivial en petit groupe (de 5 à 10 personnes). Que vous soyez débutant ou amateur éclairé,
-					je vous guide pas à pas dans la réalisation d'un <strong>gâteau</strong> ou de mignardises
-					que vous emporterez fièrement chez vous.
+					En vous accueillant à mon domicile lors d'un <strong>atelier</strong> dans la convivialité
+					et la simplicité, pour créer et remporter vos propres gourmandises. Ces ateliers sont
+					ouverts à tout public à partir de 10 ans et pour tout <strong>événement</strong> (EVJF(G),
+					anniversaires, comité d'entreprises, entre amis, famille...).
 				</p>
 				<a
 					aria-label="Reserver un atelier"
@@ -24,11 +24,9 @@
 			<div class="card">
 				<h3 class="card-title">Commande de Gâteaux & Traiteur</h3>
 				<p class="card-text">
-					Pour tout <strong>événement</strong> (anniversaire, mariage, baptême...), je réalise sur
-					<strong>commande</strong>
-					la <strong>pâtisserie</strong> qui marquera les esprits. Nous proposons également un
-					service de <strong>traiteur</strong> froid (verrines, mignardises salées) pour compléter
-					vos réceptions à <strong>Fécamp</strong> et ses alentours.
+					En réalisant vos <strong> pâtisseries </strong> ou <strong> buffet</strong> (petits fours
+					salés et sucrés) pour vos <strong>événements</strong> , sur <strong>commande</strong> ( pour
+					chaque commande un acompte de 10 % vous sera demandé).
 				</p>
 				<a
 					aria-label="Demander un devis"

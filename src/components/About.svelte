@@ -7,14 +7,20 @@
 		<div class="text-content">
 			<h2 class="title">Bienvenue chez So' Patiss</h2>
 			<p class="paragraph">
-				Bonjour, je suis Sophie Delaporte, une passionnée de pâtisserie basée à Fécamp. Titulaire
-				d'un <strong>CAP Pâtissier</strong>, j'ai créé "So' Patiss" pour partager ma passion avec
-				vous de deux manières : en vous apprenant à créer vos propres merveilles lors d'un
-				<strong>atelier de pâtisserie</strong>, ou en réalisant le <strong>gâteau</strong> de vos
-				rêves pour un <strong>événement</strong> spécial.
+				Passionnée de pâtisserie basée à <strong>Fécamp</strong>. Titulaire d'un CAP Pâtissier
+				depuis décembre 2024, après avoir suivi les cours à l'INBP de Rouen suivi d'un stage très
+				enrichissant chez la pâtisserie HAUTOT à AUZEBOSC , je souhaitais réaliser un projet qui me
+				tient à cœur depuis longtemps.
 			</p>
 			<p class="paragraph">
-				Ma philosophie est simple : des ingrédients de qualité, une touche de créativité, et
+				"<strong>So' Patiss</strong>" est né d'une passion pour la pâtisserie depuis «presque»
+				toujours, avec la volonté de faire plaisir aux gourmands, gourmets, sans oublier les
+				personnes diabétiques car je souhaite également développer les pâtisseries sans sucre ou
+				remplacer le sucre par le stévia «feuille» (produit naturel remplaçant efficacement le sucre
+				blanc).
+			</p>
+			<p class="paragraph">
+				Ma philosophie est simple : des produits locaux et de qualité, une touche de créativité, et
 				beaucoup de gourmandise. Chaque <strong>commande</strong> est une nouvelle histoire à raconter.
 			</p>
 		</div>

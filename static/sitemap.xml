@@ -5,26 +5,26 @@
   <!-- Pages statiques -->
   
   <url>
-    <loc>https://nicotoine.github.io/sopatiss/</loc>
-    <lastmod>2025-07-27T14:45:50.498Z</lastmod>
+    <loc>https://sopatiss.fr/</loc>
+    <lastmod>2025-07-27T15:09:21.098Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nicotoine.github.io/sopatiss/articles</loc>
-    <lastmod>2025-07-27T14:45:50.498Z</lastmod>
+    <loc>https://sopatiss.fr/articles</loc>
+    <lastmod>2025-07-27T15:09:21.099Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nicotoine.github.io/sopatiss/contact</loc>
-    <lastmod>2025-07-27T14:45:50.498Z</lastmod>
+    <loc>https://sopatiss.fr/contact</loc>
+    <lastmod>2025-07-27T15:09:21.099Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nicotoine.github.io/sopatiss/contact/merci</loc>
-    <lastmod>2025-07-27T14:45:50.498Z</lastmod>
+    <loc>https://sopatiss.fr/contact/merci</loc>
+    <lastmod>2025-07-27T15:09:21.099Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -32,31 +32,31 @@
   <!-- Articles de blog -->
   
   <url>
-    <loc>https://nicotoine.github.io/sopatiss/articles/tarte-abricots-romarin</loc>
+    <loc>https://sopatiss.fr/articles/tarte-abricots-romarin</loc>
     <lastmod>2025-07-01T22:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nicotoine.github.io/sopatiss/articles/idees-anniversaire-enfant</loc>
+    <loc>https://sopatiss.fr/articles/idees-anniversaire-enfant</loc>
     <lastmod>2025-06-14T22:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nicotoine.github.io/sopatiss/articles/bienfaits-atelier-patisserie</loc>
+    <loc>https://sopatiss.fr/articles/bienfaits-atelier-patisserie</loc>
     <lastmod>2025-05-27T22:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nicotoine.github.io/sopatiss/articles/choisir-gateau-evenement</loc>
+    <loc>https://sopatiss.fr/articles/choisir-gateau-evenement</loc>
     <lastmod>2024-06-30T22:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nicotoine.github.io/sopatiss/articles/recette-macarons-inratable</loc>
+    <loc>https://sopatiss.fr/articles/recette-macarons-inratable</loc>
     <lastmod>2024-06-24T22:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

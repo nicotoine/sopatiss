@@ -1,0 +1,108 @@
+{
+    "categories": [
+        {
+            "nom": "Gâteaux & Entremets",
+            "produits": [
+                {
+                    "nom": "Royal Chocolat",
+                    "description": "Un gâteau intense et gourmand, parfait pour les amateurs de chocolat.",
+                    "image": "tarifs/Royal_Chocolat.jpg",
+                    "derives": [
+                        { "nom": "8 personnes", "prix": "30 €" }
+                    ]
+                },
+                {
+                    "nom": "Fraisier",
+                    "description": "Le grand classique printanier, alliant la douceur de la crème et la fraîcheur des fraises.",
+                     "image": "tarifs/Fraisier.jpg",
+                    "derives": [
+                        { "nom": "8 personnes", "prix": "25 €" }
+                    ]
+                },
+                {
+                    "nom": "Poirier",
+                    "description": "Une alliance délicate de la poire et d'une crème légère pour un dessert fruité et raffiné.",
+                    "image": "tarifs/Poirier.jpg",
+                    "derives": [
+                        { "nom": "8 personnes", "prix": "25 €" }
+                    ]
+                },
+                {
+                    "nom": "Croquant Fruits Rouges",
+                    "description": "Base dacquoise et croustillant surmontés d'une mousse aux fruits rouges. (sans chocolat)",
+                    "image": "tarifs/Croquant_Fruits_Rouges.jpg",
+                    "derives": [
+                        { "nom": "8 personnes", "prix": "24 €" }
+                    ]
+                },
+                {
+                    "nom": "Number Cake",
+                    "description": "Le gâteau tendance pour les anniversaires, en forme de chiffre ou de lettre.",
+                    "image": "tarifs/Number_Cakes.jpg",
+                    "derives": [
+                        { "nom": "1 chiffre (A4 - 8 parts)", "prix": "44 €" },
+                        { "nom": "Tarif / part (sauf 4 et 5 parts)", "prix": "5 €" },
+                        { "nom": "Tarif / part (pour 4 et 5 parts)", "prix": "5,50 €" },
+                        { "nom": "2 chiffres (A3 - 12 parts)", "prix": "66 €" },
+                        { "nom": "Tarif / part (pour 10 parts et +)", "prix": "5,50 €" }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "Traiteur Salé",
+            "produits": [
+                 {
+                    "nom": "Mini Choux Salés",
+                    "description": "Petits choux garnis de saveurs variées, parfaits pour l'apéritif.",
+                    "image": "tarifs/Mini_Choux_Sales.jpg",
+                    "derives": [
+                        { "nom": "Jambon fumé, fromage frais", "prix": "1,20 € /pce" },
+                        { "nom": "Saumon fumé, crème ciboulette", "prix": "1,20 € /pce" },
+                        { "nom": "Thon et fruits", "prix": "1,20 € /pce" }
+                    ]
+                },
+                {
+                    "nom": "Mini Feuilletés",
+                    "description": "Un classique croustillant et savoureux pour tous les goûts.",
+                     "image": "tarifs/Mini_Feuilletes.jpg",
+                    "derives": [
+                        { "nom": "Chorizo", "prix": "0,80 € /pce" }
+                    ]
+                },
+                {
+                    "nom": "Mini Brochettes",
+                    "description": "Une touche de fraîcheur pour vos buffets et apéritifs.",
+                    "image": "tarifs/Mini_Brochettes.jpg",
+                    "derives": [
+                        { "nom": "Mozzarella / Tomates cerises", "prix": "0,80 € /pce" }
+                    ]
+                },
+                {
+                    "nom": "Mini Quiches",
+                    "description": "Des bouchées moelleuses et gourmandes, déclinées en plusieurs saveurs.",
+                    "image": "tarifs/Mini_Quiches.jpg",
+                    "derives": [
+                        { "nom": "Lorraine", "prix": "0,80 € /pce" },
+                        { "nom": "Épinards & Chèvre", "prix": "0,80 € /pce" },
+                        { "nom": "Chorizo & Emmental", "prix": "0,80 € /pce" }
+                    ]
+                }
+            ]
+        },
+        {
+            "nom": "Pâtisseries & Mignardises",
+            "produits": [
+                {
+                    "nom": "Macarons",
+                    "description": "Coques croquantes et cœur fondant, un assortiment de saveurs classiques.",
+                    "image": "tarifs/Macarons.jpg",
+                    "derives": [
+                         { "nom": "Chocolat, Vanille, Pistache", "prix": "1,10 € /pce" },
+                         { "nom": "Framboise, Praliné, Citron", "prix": "1,10 € /pce" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

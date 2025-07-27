@@ -52,7 +52,7 @@
 		</p>
 
 		<form action="https://formsubmit.co/{emailToSend}" method="POST" class="contact-form">
-			<input type="hidden" name="_next" value="{currentUri}/contact/merci" />
+			<input type="hidden" name="_next" value="{currentUri}/merci" />
 			<input type="hidden" name="_captcha" value="false" />
 			<input type="hidden" name="_subject" value="Nouveau message depuis le site So' Patiss !" />
 

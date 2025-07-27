@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const siteURL = 'https://nicotoine.github.io/sopatiss';
+const siteURL = 'https://sopatiss.fr';
 const articlesDir = path.join(process.cwd(), 'src/lib/articles');
 const sitemapPath = path.join(process.cwd(), 'static/sitemap.xml');
 
