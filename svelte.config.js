@@ -20,6 +20,7 @@ const config = {
 		adapter: adapter(),
 
 		paths: {
+			base: '/sopatiss',
 			relative: false
 		}
 	}

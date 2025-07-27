@@ -47,8 +47,8 @@
 					<a
 						href="{base}/contact"
 						class="link"
-						title="sopatissateliers@gmail.com"
-						aria-label="sopatissateliers@gmail.com">sopatissateliers@gmail.com</a
+						title="contact@sopatiss.fr"
+						aria-label="contact@sopatiss.fr">contact@sopatiss.fr</a
 					>
 				</div>
 			</div>

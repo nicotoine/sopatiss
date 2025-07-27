@@ -8,7 +8,7 @@
 		currentUri = window.location.href;
 	});
 
-	let emailToSend = 'nicolasdevos.45@gmail.com';
+	let emailToSend = 'contact@sopatiss.fr';
 	// State pour les champs du formulaire
 	let name = $state('');
 	let email = $state('');
