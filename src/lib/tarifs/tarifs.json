@@ -5,18 +5,29 @@
             "produits": [
                 {
                     "nom": "Royal Chocolat",
-                    "description": "Un gâteau intense et gourmand, parfait pour les amateurs de chocolat.",
+                    "description": "Un gâteau intense et gourmand. Composition : Daquoise, mousse chocolat, et croustillant praliné.",
                     "image": "tarifs/Royal_Chocolat.jpg",
                     "derives": [
-                        { "nom": "8 personnes", "prix": "30 €" }
+                        { "nom": "6 personnes", "prix": "23" },
+                        { "nom": "8 personnes", "prix": "30" },
+                        { "nom": "12 personnes", "prix": "45" },
+                        { "nom": "30 personnes", "prix": "110" }
                     ]
                 },
                 {
-                    "nom": "Fraisier",
+                    "nom": "Entremet aux Fruits",
+                    "description": "Un dessert léger et fruité. Composition : Biscuit dacquoise ou génoise, croustillant praliné ou compotée de fruits, et mousse aux fruits (framboise, citron, ou autres sur demande).",
+                    "image": "tarifs/Entremet_Citron.jpg",
+                    "derives": [
+                        { "nom": "8 personnes", "prix": "24" }
+                    ]
+                },
+                {
+                    "nom": "Fraisier (en saison)",
                     "description": "Le grand classique printanier, alliant la douceur de la crème et la fraîcheur des fraises.",
                      "image": "tarifs/Fraisier.jpg",
                     "derives": [
-                        { "nom": "8 personnes", "prix": "25 €" }
+                        { "nom": "8 personnes", "prix": "25" }
                     ]
                 },
                 {
@@ -24,27 +35,34 @@
                     "description": "Une alliance délicate de la poire et d'une crème légère pour un dessert fruité et raffiné.",
                     "image": "tarifs/Poirier.jpg",
                     "derives": [
-                        { "nom": "8 personnes", "prix": "25 €" }
+                        { "nom": "8 personnes", "prix": "25" }
                     ]
                 },
                 {
-                    "nom": "Croquant Fruits Rouges",
-                    "description": "Base dacquoise et croustillant surmontés d'une mousse aux fruits rouges. (sans chocolat)",
-                    "image": "tarifs/Croquant_Fruits_Rouges.jpg",
+                    "nom" : "Pavlova",
+                    "description": "Un dessert aérien à base de meringue, crème chantilly et fruits frais.",
+                    "image": "tarifs/Pavlova.jpg",
                     "derives": [
-                        { "nom": "8 personnes", "prix": "24 €" }
+                        { "nom": "8 personnes", "prix": "30" }
                     ]
                 },
                 {
                     "nom": "Number Cake",
-                    "description": "Le gâteau tendance pour les anniversaires, en forme de chiffre ou de lettre.",
+                    "description": "Le gâteau tendance pour les anniversaires, en forme de chiffre.",
                     "image": "tarifs/Number_Cakes.jpg",
                     "derives": [
-                        { "nom": "1 chiffre (A4 - 8 parts)", "prix": "44 €" },
-                        { "nom": "Tarif / part (sauf 4 et 5 parts)", "prix": "5 €" },
-                        { "nom": "Tarif / part (pour 4 et 5 parts)", "prix": "5,50 €" },
-                        { "nom": "2 chiffres (A3 - 12 parts)", "prix": "66 €" },
-                        { "nom": "Tarif / part (pour 10 parts et +)", "prix": "5,50 €" }
+                        { "nom": "Format A4 (8 parts)", "prix": "44" },
+                        { "nom": "Spécial Chiffre '1' (8 parts)", "prix": "28" },
+                        { "nom": "Format A3 (12 parts)", "prix": "66" },
+                        { "nom": "Spécial Chiffre '1' (10 parts)", "prix": "55" }
+                    ]
+                },
+                {
+                    "nom": "Letter Cake",
+                    "description": "Un gâteau personnalisé en forme de lettre. Parfums à définir selon les demandes.",
+                    "image": "tarifs/Letter_Cake.jpg",
+                    "derives": [
+                        { "nom": "Prix par part", "prix": "5,50" }
                     ]
                 }
             ]
@@ -52,14 +70,22 @@
         {
             "nom": "Traiteur Salé",
             "produits": [
+                {
+                    "nom": "Gougères apéritives",
+                    "description": "De délicieuses bouchées au fromage, légères et aériennes.",
+                    "image": "tarifs/Mini_Choux_Sales.jpg",
+                    "derives": [
+                        { "nom": "Les 10 pièces", "prix": "4" }
+                    ]
+                },
                  {
                     "nom": "Mini Choux Salés",
                     "description": "Petits choux garnis de saveurs variées, parfaits pour l'apéritif.",
                     "image": "tarifs/Mini_Choux_Sales.jpg",
                     "derives": [
-                        { "nom": "Jambon fumé, fromage frais", "prix": "1,20 € /pce" },
-                        { "nom": "Saumon fumé, crème ciboulette", "prix": "1,20 € /pce" },
-                        { "nom": "Thon et fruits", "prix": "1,20 € /pce" }
+                        { "nom": "Jambon fumé, fromage frais", "prix": "1,20 /pce" },
+                        { "nom": "Thon, fromage frais, ciboulette", "prix": "1,20 /pce" },
+                        { "nom": "Saumon fumé, crème ciboulette", "prix": "1,20 /pce" }
                     ]
                 },
                 {
@@ -67,7 +93,7 @@
                     "description": "Un classique croustillant et savoureux pour tous les goûts.",
                      "image": "tarifs/Mini_Feuilletes.jpg",
                     "derives": [
-                        { "nom": "Chorizo", "prix": "0,80 € /pce" }
+                        { "nom": "Chorizo", "prix": "0,80 /pce" }
                     ]
                 },
                 {
@@ -75,7 +101,7 @@
                     "description": "Une touche de fraîcheur pour vos buffets et apéritifs.",
                     "image": "tarifs/Mini_Brochettes.jpg",
                     "derives": [
-                        { "nom": "Mozzarella / Tomates cerises", "prix": "0,80 € /pce" }
+                        { "nom": "Mozzarella / Tomates cerises", "prix": "0,80 /pce" }
                     ]
                 },
                 {
@@ -83,9 +109,9 @@
                     "description": "Des bouchées moelleuses et gourmandes, déclinées en plusieurs saveurs.",
                     "image": "tarifs/Mini_Quiches.jpg",
                     "derives": [
-                        { "nom": "Lorraine", "prix": "0,80 € /pce" },
-                        { "nom": "Épinards & Chèvre", "prix": "0,80 € /pce" },
-                        { "nom": "Chorizo & Emmental", "prix": "0,80 € /pce" }
+                        { "nom": "Lorraine", "prix": "0,80 /pce" },
+                        { "nom": "Épinards & Chèvre", "prix": "0,80 /pce" },
+                        { "nom": "Chorizo & Emmental", "prix": "0,80 /pce" }
                     ]
                 }
             ]
@@ -98,8 +124,36 @@
                     "description": "Coques croquantes et cœur fondant, un assortiment de saveurs classiques.",
                     "image": "tarifs/Macarons.jpg",
                     "derives": [
-                         { "nom": "Chocolat, Vanille, Pistache", "prix": "1,10 € /pce" },
-                         { "nom": "Framboise, Praliné, Citron", "prix": "1,10 € /pce" }
+                         { "nom": "Chocolat, Vanille, Praliné, Caramel, Framboise, Citron, Pistache", "prix": "1,10 /pce" }
+                    ]
+                },
+                {
+                    "nom": "Mini Choux Sucrés",
+                    "description": "La version sucrée de nos choux, une bouchée de douceur.",
+                    "image": "tarifs/Mini_Choux_Sucres.jpg",
+                    "derives": [
+                        { "nom": "Chocolat", "prix": "1,20 /pce" },
+                        { "nom": "Vanille", "prix": "1,20 /pce" },
+                        { "nom": "Citron", "prix": "1,20 /pce" }
+                    ]
+                },
+                {
+                    "nom": "Cupcakes",
+                    "description": "Des gâteaux individuels décorés avec soin..",
+                    "image": "tarifs/Cupcakes.jpg",
+                    "derives": [
+                        { "nom": "sans décoration", "prix": "2.8 /pce" },
+                        { "nom": "avec décoration ( Fleurs, ou autres )", "prix": "3 /pce" }
+                    ]
+
+                },
+                {
+                    "nom": "Chouquettes",
+                    "description": "Des petits gâteaux en forme de cœur, gourmands et savoureux.",
+                    "image": "tarifs/Chouquettes.jpg",
+                    "derives": [
+                        { "nom": "Les 12 pièces", "prix": "3" },
+                        { "nom": "Les 24 pièces", "prix": "5" }
                     ]
                 }
             ]

@@ -1,19 +1,121 @@
-<script>
+<script lang="ts">
 	import { base } from '$app/paths';
 
-	/** @type {import('./$types').PageData} */
-	export let data;
+	interface Derive {
+		nom: string;
+		prix: string;
+	}
+
+	interface Produit {
+		nom: string;
+		description: string;
+		image?: string;
+		derives: Derive[];
+	}
+
+	interface Categorie {
+		id?: string;
+		nom: string;
+		produits: Produit[];
+	}
+
+	interface PageData {
+		categories: Categorie[];
+	}
+
+	// Schema.org JSON-LD interfaces
+	interface OfferSchema {
+		'@type': 'Offer';
+		name: string;
+		price: number;
+		priceCurrency: 'EUR';
+	}
+
+	interface AggregateOfferSchema {
+		'@type': 'AggregateOffer';
+		priceCurrency: 'EUR';
+		lowPrice: number;
+		highPrice: number;
+		offers: OfferSchema[];
+	}
+
+	interface ProductSchema {
+		'@type': 'Product';
+		name: string;
+		description: string;
+		image?: string;
+		offers: AggregateOfferSchema;
+	}
+
+	interface ListItemSchema {
+		'@type': 'ListItem';
+		position: number;
+		item: ProductSchema;
+	}
+
+	interface ItemListSchema {
+		'@context': 'https://schema.org';
+		'@type': 'ItemList';
+		itemListElement: ListItemSchema[];
+	}
+
+	export let data: PageData;
+
+	let fullScreenImage: string | undefined;
+	let structuredData: ItemListSchema | {} = {};
+
+	$: {
+		const productsWithOffers: ProductSchema[] = data.categories.flatMap((category: Categorie) =>
+			category.produits.map(
+				(product: Produit): ProductSchema => ({
+					'@type': 'Product',
+					name: product.nom,
+					description: product.description,
+					image: product.image ? `${base}/${product.image}` : undefined,
+					offers: {
+						'@type': 'AggregateOffer',
+						priceCurrency: 'EUR',
+						lowPrice: Math.min(...product.derives.map((d: Derive) => parseFloat(d.prix))),
+						highPrice: Math.max(...product.derives.map((d: Derive) => parseFloat(d.prix))),
+						offers: product.derives.map(
+							(derive: Derive): OfferSchema => ({
+								'@type': 'Offer',
+								name: derive.nom,
+								price: parseFloat(derive.prix),
+								priceCurrency: 'EUR'
+							})
+						)
+					}
+				})
+			)
+		);
+
+		structuredData = {
+			'@context': 'https://schema.org',
+			'@type': 'ItemList',
+			itemListElement: productsWithOffers.map(
+				(product: ProductSchema, index: number): ListItemSchema => ({
+					'@type': 'ListItem',
+					position: index + 1,
+					item: product
+				})
+			)
+		};
+	}
 </script>
 
 <svelte:head>
-	<title>Tarifs - So' Patiss Fécamp</title>
+	<title>Tarifs des Pâtisseries sur Commande - So' Patiss Fécamp</title>
 	<meta
 		name="description"
-		content="Découvrez les tarifs de nos gâteaux, entremets, et autres pâtisseries sur commande à Fécamp."
+		content="Consultez les prix de nos gâteaux, entremets et pâtisseries artisanales. Commande personnalisée à Fécamp pour tous vos événements."
 	/>
+	<script type="application/ld+json">
+		{@html JSON.stringify(structuredData)}
+	</script>
 </svelte:head>
 
-<div class="tarifs-page">
+<main class="tarifs-page">
 	<div class="container">
 		<h1 class="page-title">Nos Tarifs</h1>
 		<p class="page-subtitle">
@@ -22,17 +124,32 @@
 		</p>
 
 		{#each data.categories as category}
-			<section class="category-section">
-				<h2 class="category-title">{category.nom}</h2>
+			<section
+				class="category-section"
+				aria-labelledby="category-title-{category.id || category.nom}"
+			>
+				<h2 class="category-title" id="category-title-{category.id || category.nom}">
+					{category.nom}
+				</h2>
 				<div class="products-grid">
 					{#each category.produits as product}
-						<div class="product-card">
+						<article class="product-card">
 							{#if product.image}
-								<img
-									src="{base}/{product.image}"
-									alt="Image de {product.nom}"
-									class="product-image"
-								/>
+								<button
+									class="product-image-button"
+									on:click={() => (fullScreenImage = product.image)}
+									aria-label="Agrandir l'image de {product.nom}"
+								>
+									<img
+										src="{base}/{product.image}"
+										alt="Photo de notre {product.nom} réalisé par So' Patiss Fécamp"
+										class="product-image"
+										loading="lazy"
+										decoding="async"
+										width="300"
+										height="250"
+									/>
+								</button>
 							{/if}
 							<div class="product-content">
 								<h3 class="product-name">{product.nom}</h3>
@@ -43,19 +160,47 @@
 										{#each product.derives as derive}
 											<li class="derive-item">
 												<span>{derive.nom}</span>
-												<span class="price">{derive.prix}</span>
+												<span class="price" aria-label="Prix : {derive.prix} euros"
+													>{derive.prix} €</span
+												>
 											</li>
 										{/each}
 									</ul>
 								{/if}
 							</div>
-						</div>
+						</article>
 					{/each}
 				</div>
 			</section>
 		{/each}
 	</div>
-</div>
+
+	{#if fullScreenImage}
+		<button
+			class="close-button"
+			on:click={() => (fullScreenImage = undefined)}
+			aria-label="Fermer l'image en plein écran"
+		>
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<button
+			class="full-sreen-image-display"
+			on:click={() => (fullScreenImage = undefined)}
+			tabindex="0"
+			aria-label="Fermer l'image en plein écran"
+		>
+			<div class="full-screen-image">
+				<img
+					src="{base}/{fullScreenImage}"
+					alt="So' Patiss Fécamp pâtisserie"
+					class="product-image"
+					loading="lazy"
+					decoding="async"
+				/>
+			</div>
+		</button>
+	{/if}
+</main>
 
 <style>
 	.tarifs-page {
@@ -152,5 +297,54 @@
 		font-weight: 600;
 		color: #ec4899;
 		text-wrap: nowrap;
+	}
+	.product-image-button {
+		border: none;
+		background: none;
+		padding: 0;
+		cursor: pointer;
+	}
+
+	.full-sreen-image-display {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1000;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.full-sreen-image-display .full-screen-image {
+		max-width: 90%;
+		max-height: 90%;
+		border-radius: 0.5rem;
+		overflow: hidden;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+
+	.full-sreen-image-display .full-screen-image img {
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+		border-radius: 0.5rem;
+		aspect-ratio: 16 / 9;
+	}
+	.close-button {
+		position: fixed;
+		top: 1rem;
+		right: 1rem;
+		background-color: transparent;
+		border: none;
+		color: white;
+		font-size: 2rem;
+		cursor: pointer;
+		z-index: 1100;
 	}
 </style>
