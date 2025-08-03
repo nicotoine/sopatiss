@@ -62,7 +62,7 @@
                     "description": "Un gâteau personnalisé en forme de lettre. Parfums à définir selon les demandes.",
                     "image": "tarifs/Letter_Cake.jpg",
                     "derives": [
-                        { "nom": "Prix par part", "prix": "5,50" }
+                        { "nom": "Prix/part", "prix": "5,50" }
                     ]
                 }
             ]
@@ -149,7 +149,7 @@
                 },
                 {
                     "nom": "Chouquettes",
-                    "description": "Des petits gâteaux en forme de cœur, gourmands et savoureux.",
+                    "description": "Des petits gâteaux, gourmands et savoureux.",
                     "image": "tarifs/Chouquettes.jpg",
                     "derives": [
                         { "nom": "Les 12 pièces", "prix": "3" },

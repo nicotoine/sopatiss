@@ -322,8 +322,8 @@
 	}
 
 	.full-sreen-image-display .full-screen-image {
-		max-width: 90%;
-		max-height: 90%;
+		max-width: calc(100% - 2rem);
+		max-height: calc(100% - 2rem);
 		border-radius: 0.5rem;
 		overflow: hidden;
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -335,6 +335,9 @@
 		object-fit: contain;
 		border-radius: 0.5rem;
 		aspect-ratio: 16 / 9;
+		@media (max-width: 600px) {
+			aspect-ratio: 3 / 4;
+		}
 	}
 	.close-button {
 		position: fixed;
