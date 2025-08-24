@@ -160,9 +160,7 @@
 										{#each product.derives as derive}
 											<li class="derive-item">
 												<span>{derive.nom}</span>
-												<span class="price" aria-label="Prix : {derive.prix} euros"
-													>{derive.prix} €</span
-												>
+												<span class="price" aria-label="Prix : {derive.prix}">{derive.prix} </span>
 											</li>
 										{/each}
 									</ul>
@@ -289,6 +287,7 @@
 		align-items: center;
 		padding: 0.5rem 0;
 		border-bottom: 1px solid #f3f4f6;
+		gap: 1rem;
 	}
 	.derive-item:last-child {
 		border-bottom: none;
