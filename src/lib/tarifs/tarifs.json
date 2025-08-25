@@ -163,8 +163,8 @@
                     "description": "Des petits gâteaux, gourmands et savoureux.",
                     "image": "tarifs/Chouquettes.jpg",
                     "derives": [
-                        { "nom": "Les 12 pièces", "prix": "3€" },
-                        { "nom": "Les 24 pièces", "prix": "5€" }
+                        { "nom": "Les 12 pièces", "prix": "2.5€" },
+                        { "nom": "Les 24 pièces", "prix": "4€" }
                     ]
                 }
             ]
