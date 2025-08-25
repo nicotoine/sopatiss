@@ -153,7 +153,7 @@
                     "description": "Des gâteaux individuels décorés avec soin..",
                     "image": "tarifs/Cupcakes.jpg",
                     "derives": [
-                        { "nom": "sans décoration", "prix": "2.8€/pce" },
+                        { "nom": "sans décoration", "prix": "2.80€/pce" },
                         { "nom": "avec décoration ( Fleurs, ou autres )", "prix": "3€/pce" }
                     ]
 
@@ -163,7 +163,7 @@
                     "description": "Des petits gâteaux, gourmands et savoureux.",
                     "image": "tarifs/Chouquettes.jpg",
                     "derives": [
-                        { "nom": "Les 12 pièces", "prix": "2.5€" },
+                        { "nom": "Les 12 pièces", "prix": "2.50€" },
                         { "nom": "Les 24 pièces", "prix": "4€" }
                     ]
                 }
