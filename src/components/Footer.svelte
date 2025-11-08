@@ -41,6 +41,13 @@
 				</svg>
 			</a>
 		</div>
+
+		<div class="legal-links">
+			<a href="/mentions-legales">Mentions Légales</a>
+			<span>|</span>
+			<a href="/politique-de-confidentialite">Politique de Confidentialité</a>
+		</div>
+
 		<p>&copy; 2024 So' Patiss - Ateliers et Gourmandises. Tous droits réservés.</p>
 		<p class="subtext">Création de gâteaux et ateliers de pâtisserie à Fécamp.</p>
 	</div>
@@ -73,6 +80,28 @@
 	.social-icon:hover {
 		color: #d8b4fe; /* Une couleur lavande claire pour le survol */
 	}
+
+	/* CSS pour les nouveaux liens */
+	.legal-links {
+		margin-bottom: 1rem;
+		font-size: 0.875rem; /* text-sm */
+		color: #9ca3af; /* text-gray-400 */
+	}
+	.legal-links a {
+		color: #9ca3af;
+		text-decoration: none;
+		margin: 0 0.5rem;
+		transition: color 0.3s ease-in-out;
+	}
+	.legal-links a:hover {
+		color: #ffffff;
+		text-decoration: underline;
+	}
+	.legal-links span {
+		/* Séparateur | */
+		color: #4b5563; /* text-gray-600 */
+	}
+
 	.subtext {
 		font-size: 0.875rem;
 		color: #9ca3af;

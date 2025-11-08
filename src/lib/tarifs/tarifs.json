@@ -84,25 +84,39 @@
                 {
                     "nom": "Gougères apéritives",
                     "description": "De délicieuses bouchées au fromage, légères et aériennes.",
-                    "image": "tarifs/Mini_Choux_Sales.jpg",
+                    "image": "tarifs/Gougeres.jpg",
                     "derives": [
                         { "nom": "Les 10 pièces", "prix": "4€" }
                     ]
                 },
-                 {
-                    "nom": "Mini Choux Salés",
+                {
+                    "nom": "Mini Choux Salés Jambon Fumé",
                     "description": "Petits choux garnis de saveurs variées, parfaits pour l'apéritif.",
-                    "image": "tarifs/Mini_Choux_Sales.jpg",
+                    "image": "tarifs/Choux_sales_garnis_mousse_jambon.jpg",
                     "derives": [
-                        { "nom": "Jambon fumé, fromage frais", "prix": "1,20€/pce" },
-                        { "nom": "Thon, fromage frais, ciboulette", "prix": "1,20€/pce" },
+                        { "nom": "Jambon fumé, fromage frais", "prix": "1,20€/pce" }
+                    ]
+                },
+                {
+                    "nom": "Mini Choux Salés Thon",
+                    "description": "Petits choux garnis de saveurs variées, parfaits pour l'apéritif.",
+                    "image": "tarifs/Choux_sales_garnis_mousse_thon.jpg",
+                    "derives": [
+                        { "nom": "Thon, fromage frais, ciboulette", "prix": "1,20€/pce" }
+                    ]
+                },
+                {
+                    "nom": "Mini Choux Salés Saumon fumé",
+                    "description": "Petits choux garnis de saveurs variées, parfaits pour l'apéritif.",
+                    "image": "tarifs/Choux_sales_garnis_mousse_saumon.jpg",
+                    "derives": [
                         { "nom": "Saumon fumé, crème ciboulette", "prix": "1,20€/pce" }
                     ]
                 },
                 {
                     "nom": "Mini Feuilletés",
                     "description": "Un classique croustillant et savoureux pour tous les goûts.",
-                     "image": "tarifs/Mini_Feuilletes.jpg",
+                     "image": "tarifs/Feuilletes_Chorizo.jpg",
                     "derives": [
                         { "nom": "Chorizo", "prix": "0,80€/pce" }
                     ]
@@ -110,7 +124,7 @@
                 {
                     "nom": "Mini Brochettes",
                     "description": "Une touche de fraîcheur pour vos buffets et apéritifs.",
-                    "image": "tarifs/Mini_Brochettes.jpg",
+                    "image": "tarifs/Brochettes_tomates_mozza_pesto.jpg",
                     "derives": [
                         { "nom": "Mozzarella / Tomates cerises", "prix": "0,80€/pce" }
                     ]
