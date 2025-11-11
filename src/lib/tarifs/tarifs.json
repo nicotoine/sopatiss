@@ -19,7 +19,7 @@
                     "description": "Un dessert léger et fruité. Composition : Biscuit dacquoise ou génoise, croustillant praliné ou compotée de fruits, et mousse aux fruits (framboise, citron, ou autres sur demande).",
                     "image": "tarifs/Entremet_Citron.jpg",
                     "derives": [
-                        { "nom": "8 personnes", "prix": "24€" }
+                        { "nom": "8 personnes", "prix": "28€" }
                     ]
                 },
                 {
