@@ -12,14 +12,14 @@
 	let visible = $state(false);
 
 	onMount(() => {
-		if (new Date() < absenceExpiry && !localStorage.getItem('absence-dismissed')) {
+		if (new Date() < absenceExpiry && !sessionStorage.getItem('absence-dismissed')) {
 			visible = true;
 		}
 	});
 
 	function dismiss() {
 		visible = false;
-		localStorage.setItem('absence-dismissed', 'true');
+		sessionStorage.setItem('absence-dismissed', 'true');
 	}
 </script>
 
