@@ -1,12 +1,26 @@
 <script>
 	import Footer from '../components/Footer.svelte';
 	import Header from '../components/Header.svelte';
+	import { onMount } from 'svelte';
 
 	import '@fontsource/poppins';
 	import '@fontsource/playfair-display';
 	import { base } from '$app/paths';
-	export let data;
-	export let children;
+	let { data, children } = $props();
+
+	const absenceExpiry = new Date('2026-04-21');
+	let visible = $state(false);
+
+	onMount(() => {
+		if (new Date() < absenceExpiry && !localStorage.getItem('absence-dismissed')) {
+			visible = true;
+		}
+	});
+
+	function dismiss() {
+		visible = false;
+		localStorage.setItem('absence-dismissed', 'true');
+	}
 </script>
 
 <svelte:head>
@@ -37,6 +51,14 @@
 
 <div>
 	<Header />
+	{#if visible}
+		<div class="popup-overlay" onclick={dismiss} role="presentation">
+			<div class="popup-content" onclick={(e) => e.stopPropagation()} role="dialog" aria-modal="true">
+				<img src="{base}/absence_temporaire.jpg" alt="Fermeture temporaire - Pas de commandes du 30 mars au 20 avril" />
+				<button class="close-btn" onclick={dismiss} aria-label="Fermer">✕</button>
+			</div>
+		</div>
+	{/if}
 	<main>
 		{@render children()}
 	</main>
@@ -44,6 +66,51 @@
 </div>
 
 <style>
+	.popup-overlay {
+		position: fixed;
+		inset: 0;
+		background: rgba(0, 0, 0, 0.5);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1000;
+		padding: 1rem;
+	}
+
+	.popup-content {
+		position: relative;
+		max-width: 700px;
+		width: 100%;
+	}
+
+	.popup-content img {
+		width: 100%;
+		border-radius: 16px;
+		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+		display: block;
+	}
+
+	.close-btn {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		background: rgba(0, 0, 0, 0.5);
+		color: white;
+		border: none;
+		border-radius: 50%;
+		width: 32px;
+		height: 32px;
+		font-size: 16px;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.close-btn:hover {
+		background: rgba(0, 0, 0, 0.75);
+	}
+
 	:global(body) {
 		margin: 0;
 		font-family: 'Poppins', sans-serif;
