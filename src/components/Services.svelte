@@ -26,7 +26,7 @@
 				<p class="card-text">
 					En réalisant vos <strong> pâtisseries </strong> ou <strong> buffet</strong> (petits fours
 					salés et sucrés) pour vos <strong>événements</strong> , sur <strong>commande</strong> ( pour
-					chaque commande un acompte de 10 % vous sera demandé).
+					chaque commande un acompte de 30 % vous sera demandé).
 				</p>
 				<a
 					aria-label="Demander un devis"

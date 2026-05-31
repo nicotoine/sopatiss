@@ -19,7 +19,7 @@
                     "description": "Un dessert léger et fruité. Composition : Biscuit dacquoise ou génoise, croustillant praliné ou compotée de fruits, et mousse aux fruits (framboise, citron, ou autres sur demande).",
                     "image": "tarifs/Entremet_Citron.jpg",
                     "derives": [
-                        { "nom": "8 personnes", "prix": "28€" }
+                        { "nom": "8 personnes", "prix": "30€" }
                     ]
                 },
                 {
@@ -27,7 +27,7 @@
                     "description": "Le grand classique printanier, alliant la douceur de la crème et la fraîcheur des fraises.",
                      "image": "tarifs/Fraisier.jpg",
                     "derives": [
-                        { "nom": "8 personnes", "prix": "25€" }
+                        { "nom": "8 personnes", "prix": "28€" }
                     ]
                 },
                 {
@@ -35,7 +35,7 @@
                     "description": "Une alliance délicate de la poire et d'une crème légère pour un dessert fruité et raffiné.",
                     "image": "tarifs/Poirier.jpg",
                     "derives": [
-                        { "nom": "8 personnes", "prix": "25€" }
+                        { "nom": "8 personnes", "prix": "28€" }
                     ]
                 },
                 {
@@ -149,7 +149,7 @@
                     "description": "Coques croquantes et cœur fondant, un assortiment de saveurs classiques.",
                     "image": "tarifs/Macarons.jpg",
                     "derives": [
-                         { "nom": "Chocolat, Vanille, Praliné, Caramel, Framboise, Citron, Pistache", "prix": "1,10€/pce" }
+                         { "nom": "Chocolat, Vanille, Praliné, Caramel, Framboise, Citron, Pistache", "prix": "1,30€/pce" }
                     ]
                 },
                 {
