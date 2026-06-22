@@ -149,7 +149,7 @@
                     "description": "Coques croquantes et cœur fondant, un assortiment de saveurs classiques.",
                     "image": "tarifs/Macarons.jpg",
                     "derives": [
-                         { "nom": "Chocolat, Vanille, Praliné, Caramel, Framboise, Citron, Pistache", "prix": "1,30€/pce" }
+                         { "nom": "Chocolat, Vanille, Praliné, Caramel, Framboise, Citron, Pistache", "prix": "1,20€/pce" }
                     ]
                 },
                 {
@@ -157,9 +157,17 @@
                     "description": "La version sucrée de nos choux, une bouchée de douceur.",
                     "image": "tarifs/Mini_Choux_Sucres.jpg",
                     "derives": [
-                        { "nom": "Chocolat", "prix": "1,20€/pce" },
-                        { "nom": "Vanille", "prix": "1,20€/pce" },
-                        { "nom": "Citron", "prix": "1,20€/pce" }
+                        { "nom": "Chocolat", "prix": "1,80€/pce" },
+                        { "nom": "Vanille", "prix": "1,80€/pce" },
+                        { "nom": "Citron", "prix": "1,80€/pce" }
+                    ]
+                },
+                {
+                    "nom": "Number Choux",
+                    "description": "Choux garnis caramélisés assemblés en forme de chiffre, pour un dessert original et gourmand.",
+                    "image": "tarifs/Mini_Choux_Sucres.jpg",
+                    "derives": [
+                        { "nom": "Choux garnis caramélisés", "prix": "2€/pce" }
                     ]
                 },
                 {
