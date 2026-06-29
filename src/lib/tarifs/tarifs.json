@@ -58,6 +58,14 @@
                     ]
                 },
                 {
+                    "nom": "Number Choux",
+                    "description": "Choux garnis caramélisés assemblés en forme de chiffre ou de lettre, pour un dessert original et gourmand.",
+                    "image": "tarifs/Number_Choux.jpg",
+                    "derives": [
+                        { "nom": "Choux garnis caramélisés", "prix": "Sur devis" }
+                    ]
+                },
+                {
                     "nom": "Letter Cake",
                     "description": "Un gâteau personnalisé en forme de lettre. Parfums à définir selon les demandes.",
                     "image": "tarifs/Letter_Cake.jpg",
@@ -160,14 +168,6 @@
                         { "nom": "Chocolat", "prix": "1,80€/pce" },
                         { "nom": "Vanille", "prix": "1,80€/pce" },
                         { "nom": "Citron", "prix": "1,80€/pce" }
-                    ]
-                },
-                {
-                    "nom": "Number Choux",
-                    "description": "Choux garnis caramélisés assemblés en forme de chiffre, pour un dessert original et gourmand.",
-                    "image": "tarifs/Mini_Choux_Sucres.jpg",
-                    "derives": [
-                        { "nom": "Choux garnis caramélisés", "prix": "2€/pce" }
                     ]
                 },
                 {
