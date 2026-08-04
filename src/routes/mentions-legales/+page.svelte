@@ -22,7 +22,7 @@
 					</p>
 					<p>
 						<strong>Adresse :</strong>
-						59 RUE LEON DEGENETAIS, 76400 FECAMP
+						27 ROUTE DE CANY, 76400 FECAMP
 					</p>
 					<p>
 						<strong>Téléphone :</strong> 06 84 58 76 03

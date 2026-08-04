@@ -28,7 +28,7 @@
 					<p>SO'PATISS ATELIERS ET GOURMANDISES</p>
 					<p>
 						<strong>Adresse :</strong>
-						59 RUE LEON DEGENETAIS, 76400 FECAMP
+						27 ROUTE DE CANY, 76400 FECAMP
 					</p>
 					<p>
 						<strong>Email :</strong> contact@sopatiss.fr
@@ -159,7 +159,7 @@
 							<strong>Par e-mail :</strong> contact@sopatiss.fr
 						</li>
 						<li>
-							<strong>Par courrier postal :</strong> 59 RUE LEON DEGENETAIS, 76400 FECAMP
+							<strong>Par courrier postal :</strong> 27 ROUTE DE CANY, 76400 FECAMP
 						</li>
 					</ul>
 					<p>
