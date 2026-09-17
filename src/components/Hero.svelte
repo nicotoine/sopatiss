@@ -8,6 +8,9 @@
 			src="{base}/sopatiss.jpg"
 			alt="Logo So' Patiss, Ateliers et gourmandises"
 			class="hero-logo"
+			width="192"
+			height="192"
+			fetchpriority="high"
 		/>
 		<h1 class="hero-title">So' Patiss : Ateliers & Gourmandises</h1>
 		<p class="hero-subtitle">
