@@ -169,7 +169,7 @@
 	.logo-text {
 		font-weight: 700;
 		font-size: 1.25rem;
-		color: #7e22ce;
+		color: #9a4856;
 	}
 	.desktop-nav {
 		display: none;
@@ -179,17 +179,17 @@
 		transition: color 0.3s;
 	}
 	.nav-link:hover {
-		color: #9333ea;
+		color: #9a4856;
 	}
 	.nav-button {
-		background-color: #9333ea;
-		color: white;
+		background-color: #eba1a5;
+		color: #5e2a34;
 		padding: 0.5rem 1rem;
 		border-radius: 9999px;
 		transition: background-color 0.3s;
 	}
 	.nav-button:hover {
-		background-color: #7e22ce;
+		background-color: #e59aa0;
 	}
 	.mobile-menu-button-container {
 		display: block;
@@ -201,7 +201,7 @@
 		cursor: pointer;
 	}
 	.mobile-menu-button:hover {
-		color: #9333ea;
+		color: #9a4856;
 	}
 	.icon {
 		height: 1.5rem;
@@ -219,7 +219,7 @@
 		text-decoration: none;
 	}
 	.mobile-nav-link:hover {
-		background-color: #f3e8ff;
+		background-color: #fdf0ee;
 	}
 
 	@media (min-width: 768px) {

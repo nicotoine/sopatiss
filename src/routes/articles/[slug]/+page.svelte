@@ -77,7 +77,7 @@
 		font-family: 'Playfair Display', serif;
 		font-size: 2.5rem;
 		font-weight: 700;
-		color: #581c87;
+		color: #763440;
 		margin-bottom: 0.5rem;
 		line-height: 1.2;
 	}
@@ -101,7 +101,7 @@
 		font-size: 1.75rem;
 		margin-top: 2em;
 		margin-bottom: 1em;
-		color: #7e22ce;
+		color: #9a4856;
 	}
 	.prose :global(p) {
 		margin-bottom: 1em;
@@ -117,7 +117,7 @@
 	.back-link {
 		display: inline-block;
 		margin-top: 3rem;
-		color: #ec4899;
+		color: #9a4856;
 		font-weight: 600;
 		text-decoration: none;
 	}

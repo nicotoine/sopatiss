@@ -271,7 +271,7 @@
 		font-weight: 600;
 		color: #1f2937;
 		margin-bottom: 1rem;
-		border-left: 4px solid #ec4899; /* Couleur rose/magenta */
+		border-left: 4px solid #eba1a5; /* Couleur rose/magenta */
 		padding-left: 0.75rem;
 	}
 
@@ -283,11 +283,11 @@
 		margin-top: 0.5rem;
 	}
 	.section-content a {
-		color: #db2777; /* Rose/magenta pour les liens */
+		color: #763440; /* Rose/magenta pour les liens */
 		text-decoration: underline;
 	}
 	.section-content a:hover {
-		color: #9d174d;
+		color: #763440;
 	}
 
 	/* Listes à puces */
@@ -306,7 +306,7 @@
 		background-color: #f3f4f6;
 		padding: 0.25rem 0.5rem;
 		border-radius: 0.25rem;
-		color: #db2777;
+		color: #763440;
 		font-family:
 			'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 	}

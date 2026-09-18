@@ -53,7 +53,7 @@
 		font-size: 2.5rem;
 		font-weight: 700;
 		text-align: center;
-		color: #581c87;
+		color: #763440;
 		margin-bottom: 1rem;
 	}
 	.page-subtitle {
@@ -91,7 +91,7 @@
 	.article-title {
 		font-family: 'Playfair Display', serif;
 		font-size: 1.5rem;
-		color: #7e22ce;
+		color: #9a4856;
 		margin-bottom: 0.5rem;
 	}
 	.article-description {
@@ -101,6 +101,6 @@
 	}
 	.read-more {
 		font-weight: 600;
-		color: #ec4899;
+		color: #9a4856;
 	}
 </style>

@@ -106,7 +106,7 @@
 		font-size: 2.5rem;
 		font-weight: 700;
 		text-align: center;
-		color: #581c87;
+		color: #763440;
 		margin-bottom: 1rem;
 	}
 	.page-subtitle {
@@ -159,8 +159,8 @@
 	}
 	.form-input:focus {
 		outline: none;
-		border-color: #9333ea;
-		box-shadow: 0 0 0 3px rgb(147 51 234 / 20%);
+		border-color: #eba1a5;
+		box-shadow: 0 0 0 3px rgb(235 161 165 / 45%);
 	}
 	#message {
 		resize: vertical;
@@ -171,8 +171,8 @@
 		padding: 0.75rem;
 		border: none;
 		border-radius: 0.375rem;
-		background-color: #9333ea;
-		color: white;
+		background-color: #eba1a5;
+		color: #5e2a34;
 		font-size: 1.125rem;
 		font-weight: 600;
 		cursor: pointer;
@@ -181,10 +181,10 @@
 			opacity 0.3s;
 	}
 	.submit-button:hover {
-		background-color: #7e22ce;
+		background-color: #e59aa0;
 	}
 	.submit-button:disabled {
-		background-color: #c084fc;
+		background-color: #f2cfca;
 		cursor: not-allowed;
 		opacity: 0.7;
 	}

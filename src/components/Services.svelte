@@ -78,7 +78,7 @@
 		font-family: 'Playfair Display', serif;
 		font-size: 1.5rem;
 		font-weight: 700;
-		color: #7e22ce;
+		color: #9a4856;
 		margin-bottom: 1rem;
 	}
 	.card-text {
@@ -88,11 +88,11 @@
 	}
 	.card-link {
 		font-weight: 600;
-		color: #ec4899;
+		color: #9a4856;
 		text-decoration: none;
 	}
 	.card-link:hover {
-		color: #db2777;
+		color: #763440;
 	}
 	@media (min-width: 768px) {
 		.grid {

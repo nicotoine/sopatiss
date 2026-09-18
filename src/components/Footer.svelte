@@ -78,7 +78,7 @@
 		transition: color 0.3s ease-in-out;
 	}
 	.social-icon:hover {
-		color: #d8b4fe; /* Une couleur lavande claire pour le survol */
+		color: #edc5c0; /* Une couleur lavande claire pour le survol */
 	}
 
 	/* CSS pour les nouveaux liens */
