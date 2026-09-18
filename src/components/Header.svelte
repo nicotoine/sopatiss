@@ -20,7 +20,13 @@
 			aria-label="Page d'accueil de So' Patiss"
 			title="Page d'accueil de So' Patiss"
 		>
-			<img src="{base}/sopatiss.jpg" alt="Logo So' Patiss" class="logo-img" />
+			<img
+				src="{base}/logo-mark.png"
+				alt="Logo So' Patiss"
+				class="logo-img"
+				width="48"
+				height="48"
+			/>
 			<span class="logo-text">So' Patiss</span>
 		</a>
 		<div class="desktop-nav">
