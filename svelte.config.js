@@ -21,6 +21,14 @@ const config = {
 
 		paths: {
 			relative: false
+		},
+
+		prerender: {
+			// Sans cette option, `url.origin` vaut `http://sveltekit-prerender` au
+			// prérendu. Ce placeholder se retrouvait tel quel dans les balises
+			// og:url, og:image, canonical et dans les données structurées du site
+			// déployé, qui pointaient donc vers un hôte inexistant.
+			origin: 'https://sopatiss.fr'
 		}
 	}
 };
