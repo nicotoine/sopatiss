@@ -33,7 +33,7 @@
 		font-family: 'Playfair Display', serif;
 		font-size: 2.5rem;
 		font-weight: 700;
-		color: #581c87;
+		color: #763440;
 		margin-bottom: 1rem;
 	}
 	.page-subtitle {
@@ -45,13 +45,13 @@
 		display: inline-block;
 		padding: 0.75rem 1.5rem;
 		border-radius: 9999px;
-		background-color: #ec4899;
-		color: white;
+		background-color: #eba1a5;
+		color: #5e2a34;
 		font-weight: 600;
 		text-decoration: none;
 		transition: background-color 0.3s;
 	}
 	.home-link:hover {
-		background-color: #db2777;
+		background-color: #e59aa0;
 	}
 </style>

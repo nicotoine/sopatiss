@@ -58,7 +58,7 @@
 
 <style>
 	.contact-section {
-		background-color: #fff9f9;
+		background-color: #fdf6f0;
 		padding: 5rem 0;
 	}
 	.container {
@@ -102,7 +102,7 @@
 	.icon {
 		width: 1.5rem;
 		height: 1.5rem;
-		color: #9333ea;
+		color: #9a4856;
 		margin-right: 0.75rem;
 	}
 	.link {
@@ -111,6 +111,6 @@
 		text-decoration: none;
 	}
 	.link:hover {
-		color: #9333ea;
+		color: #9a4856;
 	}
 </style>

@@ -32,7 +32,7 @@
 
 <style>
 	.hero-section {
-		background-color: #fff9f9;
+		background-color: #fdf6f0;
 		padding: 5rem 0;
 	}
 	.container {
@@ -54,7 +54,7 @@
 		font-family: 'Playfair Display', serif;
 		font-size: 2.25rem;
 		font-weight: 700;
-		color: #581c87;
+		color: #763440;
 		margin-bottom: 1rem;
 	}
 	.hero-subtitle {
@@ -65,7 +65,7 @@
 	}
 	.gradient-text {
 		font-weight: 600;
-		background: linear-gradient(to right, #d946ef, #8b5cf6);
+		background: linear-gradient(to right, #c48387, #9a4856);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
@@ -76,7 +76,7 @@
 		flex-wrap: wrap;
 	}
 	.button {
-		color: white;
+		color: #5e2a34;
 		padding: 0.75rem 1.5rem;
 		border-radius: 9999px;
 		font-size: 1.125rem;
@@ -87,16 +87,16 @@
 		transition: background-color 0.3s;
 	}
 	.primary {
-		background-color: #9333ea;
+		background-color: #eba1a5;
 	}
 	.primary:hover {
-		background-color: #7e22ce;
+		background-color: #e59aa0;
 	}
 	.secondary {
-		background-color: #ec4899;
+		background-color: #fae0dc;
 	}
 	.secondary:hover {
-		background-color: #db2777;
+		background-color: #f2cfca;
 	}
 	@media (min-width: 768px) {
 		.hero-title {

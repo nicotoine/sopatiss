@@ -203,7 +203,7 @@
 <style>
 	.tarifs-page {
 		padding: 4rem 0;
-		background-color: #fff9f9;
+		background-color: #fdf6f0;
 	}
 	.container {
 		max-width: 1200px;
@@ -215,7 +215,7 @@
 		font-size: 2.5rem;
 		font-weight: 700;
 		text-align: center;
-		color: #581c87;
+		color: #763440;
 		margin-bottom: 1rem;
 	}
 	.page-subtitle {
@@ -231,8 +231,8 @@
 	.category-title {
 		font-family: 'Playfair Display', serif;
 		font-size: 2rem;
-		color: #7e22ce;
-		border-bottom: 2px solid #ec4899;
+		color: #9a4856;
+		border-bottom: 2px solid #eba1a5;
 		padding-bottom: 0.5rem;
 		margin-bottom: 2rem;
 	}
@@ -267,7 +267,7 @@
 	.product-name {
 		font-family: 'Playfair Display', serif;
 		font-size: 1.5rem;
-		color: #581c87;
+		color: #763440;
 		margin-bottom: 0.75rem;
 	}
 	.product-description {
@@ -294,7 +294,7 @@
 	}
 	.price {
 		font-weight: 600;
-		color: #ec4899;
+		color: #9a4856;
 		text-wrap: nowrap;
 	}
 	.product-image-button {
